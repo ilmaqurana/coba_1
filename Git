@@ -1,0 +1,6 @@
+git init
+git add .
+git commit -m "deploy streamlit"
+git branch -M main
+git remote add origin https://github.com/username/nama-repo.git
+git push -u origin main
